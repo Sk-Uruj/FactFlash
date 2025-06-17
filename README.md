@@ -1,3 +1,3 @@
 # Project 
 
-[text](https://fact-flash.vercel.app/)
+[fact-flash](https://fact-flash.vercel.app/)
