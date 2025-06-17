@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FactFlash</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>✨ FactFlash</h1>
+            <p>Discover amazing facts in seconds!</p>
+        </header>
+
+        <div class="category-box">
+            <h2 class="category-title">Choose Your Category</h2>
+            <div class="buttons">
+                <button class="tag-btn active"><i class="fas fa-star"></i> Random Facts</button>
+                <button class="tag-btn"><i class="fas fa-code"></i> Programming</button>
+                <button class="tag-btn"><i class="fas fa-flask"></i> Science</button>
+            </div>
+        </div>
+
+
+        <main>
+            <button class="get-fact"><i class="fas fa-bolt"></i> Get New Fact</button>
+
+            <div class="fact-card hidden">
+                <div class="tag"><i class="fas fa-sparkles"></i> Random Facts</div>
+                <p class="fact-text">Loading...</p>
+                <div class="actions">
+                    <button>♡ Like</button>
+                    <button>📋 Copy</button>
+                    <button>🔗 Share</button>
+                </div>
+                <p class="timestamp">Discovered 2:43:59 PM</p>
+            </div>
+        </main>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
